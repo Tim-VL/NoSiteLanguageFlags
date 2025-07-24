@@ -1,0 +1,20 @@
+{
+  "name": "custom/no-site-language-flags",
+  "description": "Show customer language flags in order list with ENG row highlighting",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "NoSiteLanguageFlags\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "NoSiteLanguageFlags\\NoSiteLanguageFlags",
+    "label": {
+      "en-GB": "NoSite Language Flags"
+    }
+  },
+  "require": {
+    "shopware/core": "*"
+  }
+}
