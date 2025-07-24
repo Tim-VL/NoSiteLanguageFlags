@@ -1,5 +1,5 @@
 {
-  "name": "custom/no-site-language-flags",
+  "name": "nosite/no-site-language-flags",
   "description": "Show customer language flags in order list with ENG row highlighting",
   "version": "1.0.0",
   "type": "shopware-platform-plugin",
@@ -22,8 +22,5 @@
   },
   "extra": {
     "shopware-plugin-class": "NoSiteLanguageFlags\\NoSiteLanguageFlags",
-  },
-  "require": {
-    "shopware/core": "*"
   }
 }
